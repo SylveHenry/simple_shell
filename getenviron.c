@@ -10,4 +10,3 @@ char ***getenviron()
 
 	return (&environ);
 }
-

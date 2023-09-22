@@ -22,4 +22,3 @@ ShellVar **getvars()
 
 	return (&vars);
 }
-

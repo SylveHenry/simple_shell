@@ -32,4 +32,3 @@ char *_getpid()
 	}
 	return (NULL);
 }
-

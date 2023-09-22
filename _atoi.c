@@ -44,4 +44,3 @@ int _atoi(char *s)
 		sum = sum * -1;
 	return (sum);
 }
-

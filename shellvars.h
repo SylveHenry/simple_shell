@@ -1,18 +1,17 @@
-#ifndef HISTORY_H
-#define HISTORY_H
+#ifndef SHELLVARH
+#define SHELLVARH
 
 /**
- * struct HistList - singly linked list
- * @cmd: command line entered
- * @next: pointer to the next node
- * Description: singly linked list node structure for History 
- * for Holberton project
+ * struct ShellVar - shellvar list node
+ * @name: name of variable
+ * @val: value of variable
+ * @next: next variable in the list
  */
-
-typedef struct HistList
+typedef struct ShellVar
 {
-	char *cmd;
-	struct HistList *next;
-} HistList;
+	char *name;
+	char *val;
+	struct ShellVar *next;
+} ShellVar;
 
 #endif
